@@ -1,0 +1,41 @@
+header {
+	background: url('images/home-office.jpg') no-repeat center center fixed;
+	background-size: cover;
+	height: 35em;
+
+	-webkit-filter: blur(3px);
+    filter: blur(3px);
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	color: #622569;
+}
+
+h2 {
+	color: #120713;
+	}
+
+body {
+	background: #d6d4e0;
+	}
+
+#services {
+	color: #230d36;
+	font-size: 2em;
+	}
+
+#portfolio {
+	color: #230d36;
+	font-size: 2em;
+	}
+
+#contact {
+	color: #230d36;
+	font-size: 2em;
+	}
+
+	footer {
+		background: #240e26;
+		padding: 2em;
+	}
