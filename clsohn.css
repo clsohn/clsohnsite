@@ -1,0 +1,46 @@
+header {
+	height: 800px;
+	background: url('home-office.jpg');
+	background-size: cover;
+}
+
+h1 {
+	font-family: 'Lora', serif;
+	font-size: 30px;
+	color: #622569;
+	padding: 75px;
+}
+
+h2 {
+	color: #120713;
+	font-size: 80px;
+	padding: 90px;
+	text-align: center;
+	}
+
+body {
+	background: #d6d4e0;
+	}
+	
+#services {
+	color: #230d36;
+	font-size: 28px;
+	padding: 20px;
+	text-align: center;
+	}
+
+#portfolio {
+	color: #230d36;
+	font-size: 28px;
+	float: left;
+	padding: 20px 200px 20px 200px;
+	text-align: center;
+	}
+	
+#contact {
+	color: #230d36;
+	float: right;
+	font-size: 28px;
+	padding: 20px 200px 20px 200px;
+	text-align: center;
+	}
