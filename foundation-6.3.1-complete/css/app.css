@@ -2,8 +2,10 @@ header {
 	background: url('images/home-office.jpg') no-repeat center center fixed;
 	background-size: cover;
 	height: 35em;
+}
 
-	-webkit-filter: blur(3px);
+.background {
+	webkit-filter: blur(3px);
     filter: blur(3px);
 }
 
@@ -38,4 +40,8 @@ body {
 	footer {
 		background: #240e26;
 		padding: 2em;
+	}
+
+i {
+		color: white;
 	}

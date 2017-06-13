@@ -34,13 +34,13 @@ body {
 /**
      * Add the correct display in IE 9-.
      */
-article,
+/*article,
 aside,
 footer,
 header,
 nav,
 section {
-  display: block; }
+  display: block; }*/
 
 /**
      * Correct the font size and margin on `h1` elements within `section` and
@@ -48,49 +48,50 @@ section {
      */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0;
+}
 
 /* Grouping content
        ========================================================================== */
 /**
      * Add the correct display in IE 9-.
-     */
-figcaption,
+     /**/
+/*figcaption,
 figure {
-  display: block; }
+  display: block; }**/
 
 /**
      * Add the correct margin in IE 8.
      */
-figure {
-  margin: 1em 40px; }
+/*figure {
+  margin: 1em 40px; }*/
 
 /**
      * 1. Add the correct box sizing in Firefox.
      * 2. Show the overflow in Edge and IE.
      */
-hr {
+/*hr {
   box-sizing: content-box;
   /* 1 */
-  height: 0;
+  /*height: 0;*/
   /* 1 */
-  overflow: visible;
-  /* 2 */ }
+  /*overflow: visible;*/
+  /* 2 */
 
 /**
      * Add the correct display in IE.
      */
-main {
-  display: block; }
+/*main {
+  display: block; }*/
 
 /**
      * 1. Correct the inheritance and scaling of font size in all browsers.
      * 2. Correct the odd `em` font sizing in all browsers.
      */
-pre {
-  font-family: monospace, monospace;
+/*pre {
+  font-family: monospace, monospace;*/
   /* 1 */
-  font-size: 1em;
+  /*font-size: 1em;*/
   /* 2 */ }
 
 /* Links
@@ -119,91 +120,36 @@ a:hover {
      * 1. Remove the bottom border in Firefox 39-.
      * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
      */
-abbr[title] {
+/*abbr[title] {
   border-bottom: none;
   /* 1 */
-  text-decoration: underline;
+  /*text-decoration: underline;*/
   /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */ }
+  /*text-decoration: underline dotted;*/
+  /* 2 */
 
 /**
      * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
      */
-b,
+
 strong {
   font-weight: inherit; }
-
-/**
-     * Add the correct font weight in Chrome, Edge, and Safari.
-     */
-b,
-strong {
-  font-weight: bolder; }
 
 /**
      * 1. Correct the inheritance and scaling of font size in all browsers.
      * 2. Correct the odd `em` font sizing in all browsers.
      */
-code,
-kbd,
-samp {
+code {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */ }
 
 /**
-     * Add the correct font style in Android 4.3-.
-     */
-dfn {
-  font-style: italic; }
-
-/**
-     * Add the correct background and color in IE 9-.
-     */
-mark {
-  background-color: #ff0;
-  color: #000; }
-
-/**
      * Add the correct font size in all browsers.
      */
 small {
   font-size: 80%; }
-
-/**
-     * Prevent `sub` and `sup` elements from affecting the line height in
-     * all browsers.
-     */
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline; }
-
-sub {
-  bottom: -0.25em; }
-
-sup {
-  top: -0.5em; }
-
-/* Embedded content
-       ========================================================================== */
-/**
-     * Add the correct display in IE 9-.
-     */
-audio,
-video {
-  display: inline-block; }
-
-/**
-     * Add the correct display in iOS 4-7.
-     */
-audio:not([controls]) {
-  display: none;
-  height: 0; }
 
 /**
      * Remove the border on images inside links in IE 10-.
@@ -491,7 +437,8 @@ pre {
 .row {
   max-width: 75rem;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+  }
   .row::before, .row::after {
     display: table;
     content: ' '; }
@@ -1444,13 +1391,6 @@ code {
   font-weight: normal;
   color: #0a0a0a; }
 
-kbd {
-  margin: 0;
-  padding: 0.125rem 0.25rem 0;
-  background-color: #e6e6e6;
-  font-family: Consolas, "Liberation Mono", Courier, monospace;
-  color: #0a0a0a; }
-
 .subheader {
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -2213,7 +2153,8 @@ select {
   border: 1px solid rgba(10, 10, 10, 0.25);
   border-radius: 0;
   background-color: white;
-  color: #0a0a0a; }
+  color: #0a0a0a;
+  text-align: center;
   .callout > :first-child {
     margin-top: 0; }
   .callout > :last-child {
