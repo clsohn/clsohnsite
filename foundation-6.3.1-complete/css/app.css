@@ -4,11 +4,6 @@ header {
 	height: 35em;
 }
 
-.background {
-	webkit-filter: blur(3px);
-    filter: blur(3px);
-}
-
 h1 {
 	font-family: 'Open Sans', sans-serif;
 	color: #622569;
@@ -44,4 +39,5 @@ body {
 
 i {
 		color: white;
+		width: 2em;
 	}
