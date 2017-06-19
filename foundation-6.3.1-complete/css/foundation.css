@@ -820,10 +820,10 @@ code {
   line-height: 1;
   text-align: center;
   cursor: pointer;
-  background-color: #622569;
+  background-color: #5f334b;
   color: #fefefe; }
   .button.primary {
-    background-color: #622569;
+    background-color: #5f334b;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     color: #fefefe;
     font-size: 2em;
