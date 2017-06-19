@@ -1,37 +1,41 @@
 header {
-	background: url('images/home-office.jpg') no-repeat center center fixed;
+	background: url('images/home-office.jpg') no-repeat center center;
 	background-size: cover;
-	height: 35em;
+	height: 25em;
+	margin-bottom: 2em;
 }
 
 h1 {
 	font-family: 'Open Sans', sans-serif;
-	color: #622569;
 	padding: 1em;
 	text-align: right;
 }
 
+h1, h2, h3
+	{
+		color: #622569;
+	}
+	
 body {
 	background: #d6d4e0;
+	color: #230d36;
 	}
 
-#services {
-	color: #230d36;
-	font-size: 2em;
+#about {
+
 	}
 
 #portfolio {
-	color: #230d36;
-	font-size: 2em;
-	}
+
+}
 
 #contact {
-	color: #230d36;
-	font-size: 2em;
+
 	}
 
 	footer {
 		background: #240e26;
+		margin-top: 2em;
 		padding: 2em;
 	}
 
