@@ -1,5 +1,5 @@
 header {
-	background: url('images/home-office.jpg') no-repeat center center;
+	background: url('images/laptop.jpeg') no-repeat center center;
 	background-size: cover;
 	height: 25em;
 	margin-bottom: 2em;
@@ -8,35 +8,25 @@ header {
 h1 {
 	font-family: 'Open Sans', sans-serif;
 	padding: 1em;
-	text-align: right;
+	color: #622569;
 }
 
-h1, h2, h3
-	{
-		color: #622569;
-	}
-	
 body {
-	background: #d6d4e0;
+	background: #f9eaf6;
 	color: #230d36;
 	}
 
-#about {
 
-	}
-
-#portfolio {
-
-}
-
-#contact {
-
+#contact, #project {
+	text-align: center;
 	}
 
 	footer {
 		background: #240e26;
 		margin-top: 2em;
 		padding: 2em;
+		text-align: center;
+		width: 100%;
 	}
 
 i {
