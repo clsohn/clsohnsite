@@ -28,17 +28,17 @@ span {
 
 #contact, #project {
 	text-align: center;
-	}
+}
 
-	footer {
-		background: #240e26;
-		margin-top: 2em;
-		padding: 2em;
-		text-align: center;
-		width: 100%;
-	}
+footer {
+	background: #240e26;
+	margin-top: 2em;
+	padding: 2em;
+	text-align: center;
+	width: 100%;
+}
 
 i {
 		color: white;
 		width: 2em;
-	}
+}
