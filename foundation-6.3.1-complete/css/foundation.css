@@ -686,7 +686,8 @@ a {
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #240e26; }
+    color: #240e26;
+   }
   a img {
     border: 0; }
 
@@ -887,7 +888,6 @@ html.is-reveal-open body {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none; }
-
 .title-bar {
   padding: 0.5rem;
   background: #0a0a0a;
