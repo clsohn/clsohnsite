@@ -12,10 +12,19 @@ h1 {
 }
 
 body {
-	background: #f9eaf6;
+	background: #fcf4fa;
 	color: #230d36;
 	}
 
+.nav {
+	font-size: 2em;
+	padding-right: 2em;
+	text-align: right;
+}
+
+span {
+	padding: 0.5em;
+}
 
 #contact, #project {
 	text-align: center;
