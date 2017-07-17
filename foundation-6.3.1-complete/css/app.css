@@ -16,8 +16,7 @@ body {
 	color: #230d36;
 	}
 
-.nav {
-	font-size: 2em;
+.title-bar {
 	padding-right: 2em;
 	text-align: right;
 }

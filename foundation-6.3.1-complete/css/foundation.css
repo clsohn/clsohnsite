@@ -678,7 +678,10 @@ h6 {
   h5 {
     font-size: 1.25rem; }
   h6 {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+  .title-bar {
+    font-size: 2rem; }
+  }
 
 a {
   line-height: inherit;
@@ -889,6 +892,7 @@ html.is-reveal-open body {
       -ms-user-select: none;
           user-select: none; }
 .title-bar {
+  font-size: 1.25rem;
   padding: 0.5rem;
   background: #0a0a0a;
   color: #fefefe; }
